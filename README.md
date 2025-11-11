@@ -107,6 +107,8 @@ The PCB uses primarily SMD components to minimize size and was designed to poten
 - Through-hole components for high-current connections
 - ISP programming header for easy firmware updates
 
+![PCB Assembled](Docs/BoardAssembled.jpeg)
+
 ### Enclosure
 
 The controller is housed in a two-part snap-fit enclosure designed in Fusion 360. Originally intended to mount on the wiper motor housing, the final installation places it under the dashboard for easier access and installation.
@@ -175,6 +177,9 @@ The controller installs inline between the original wiring harness and the wiper
 - J3: To motor terminal 1
 - J2: To motor terminal 2 (through controller)
 - J4: To motor terminal E
+
+![PCB Wiring](Docs/ControllerWiring.png)
+![PCB Wiring Photo](Docs/WiringPhoto.jpeg)
 
 ### Programming
 

@@ -287,7 +287,35 @@ Contributions are welcome! If you've installed this controller in a different ve
 
 ## License
 
-This project is open source. Please refer to the LICENSE file for details.
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+
+### You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+### Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+- **NonCommercial** — You may not use the material for commercial purposes
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license
+
+### What this means:
+✅ **Allowed:**
+- Personal use and modifications
+- Educational purposes
+- Sharing with the classic car community
+- Building your own controller for your vehicle
+- Sharing improvements and modifications
+
+❌ **Not Allowed:**
+- Selling the controller or kits commercially
+- Manufacturing for profit
+- Including in commercial products or services
+- Using the design in commercial automotive products
+
+**Full License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 
 ## Acknowledgments
 

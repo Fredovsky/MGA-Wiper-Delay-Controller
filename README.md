@@ -1,6 +1,8 @@
 # MGA-Wiper-Delay-Controller
 MG MGA Delay (Intermittent) Controller for the stock wiper motor and harness.
 
+Project details here : https://hackaday.io/project/175605-classic-car-intermittent-wiper-motor-controller
+
 
 # Disclaimer
 

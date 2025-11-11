@@ -6,6 +6,8 @@ A fully customizable, Arduino-based, multi-frequency intermittent wiper controll
 
 Some classic British cars such as the MG MGA and Triumph TR2 came equipped with a single-speed Lucas DR2 wiper motor. When encountering rain of various intensity, the single speed is just not appropriate 90% of the time. This project provides an intelligent controller that adds intermittent wiper functionality without modifying the original vehicle or requiring additional switches.
 
+[![Video Title](https://img.youtube.com/vi/Cxpz3yVJnDE/0.jpg)](https://www.youtube.com/watch?v=Cxpz3yVJnDE)
+
 ### Key Features
 
 - **Non-destructive installation** - No modifications to the original vehicle

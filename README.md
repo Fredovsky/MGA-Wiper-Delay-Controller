@@ -227,7 +227,7 @@ All project files are available in this repository:
 
 ## Bill of Materials
 
-Complete BOM with supplier part numbers is available in the `hardware/BOM.csv` file. All components are readily available from Mouser Electronics and other major suppliers.
+Complete BOM with supplier part numbers is available in the `Eagle/BOM_Wiper_Control.pdf` file. All components are readily available from Mouser Electronics and other major suppliers.
 
 Estimated component cost: ~$25-35 USD (excluding PCB fabrication)
 

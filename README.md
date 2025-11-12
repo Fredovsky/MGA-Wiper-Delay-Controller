@@ -120,7 +120,6 @@ The controller is programmed using the Arduino framework with the ATtiny85 core.
 - **Switch debouncing** in software (50ms delay)
 - **Non-blocking timing** using `millis()` instead of `delay()`
 - **Toggle detection** to cycle through intermittent speeds
-- **State machine** for mode management
 
 ### Key Parameters
 
@@ -150,13 +149,11 @@ The software consists of two main functions:
 - Implements software debouncing
 - Detects state changes (ON→OFF, OFF→ON)
 - Tracks toggle sequences to determine mode changes
-- Manages the state machine
 
 #### `wipe()` Function
 - Executes wiper control based on current mode
 - Manages timing for intermittent delays
 - Controls relay activation/deactivation
-- Ensures proper pulse width for motor activation
 
 ### Customization
 
@@ -188,7 +185,7 @@ The ATtiny85 can be programmed via the ISP header (J5) using:
 - Arduino as ISP
 - Other AVR programmers supporting ISP protocol
 
-Flash the provided Arduino sketch to the ATtiny85 before installation.
+Flash the provided Arduino sketch to the ATtiny85 using the ISP connector on the PCB.
 
 ### Physical Installation
 
@@ -216,7 +213,6 @@ The controller has been successfully tested and installed in an MG MGA. Key obse
 - **Proper timing**: All intermittent delays work as programmed
 - **Original functionality preserved**: Can be removed without trace
 - **Invisible installation**: Maintains stock appearance
-- **No electrical noise**: Clean operation without interference
 
 ## Files and Resources
 
@@ -229,8 +225,6 @@ All project files are available in this repository:
 
 Complete BOM with supplier part numbers is available in the `Eagle/BOM_Wiper_Control.pdf` file. All components are readily available from Mouser Electronics and other major suppliers.
 
-Estimated component cost: ~$25-35 USD (excluding PCB fabrication)
-
 ## Requirements
 
 ### Hardware Requirements
@@ -239,14 +233,12 @@ Estimated component cost: ~$25-35 USD (excluding PCB fabrication)
 - 12V electrical system
 
 ### Software Requirements
-- Arduino IDE 1.8.x or later
+- Arduino IDE or PlatformIO
 - ATtiny core support (install via Board Manager)
-- USBasp or Arduino ISP programmer
 
 ### Programming Tools
-- AVR programmer with ISP support
+- AVR programmer with ISP support (USBasp or Arduino ISP programmer)
 - 6-pin ISP cable
-- Optional: ICSP programming clip
 
 ## Design Considerations
 
@@ -263,7 +255,6 @@ The design accounts for the harsh automotive environment:
 - Automotive-grade relay rated for motor inrush current
 - Ferrite beads for EMI suppression
 - Proper wire gauge for current handling
-- Conformal coating recommended for PCB
 
 ### Safety
 - Relay rated well above motor current draw
@@ -325,7 +316,7 @@ This project is licensed under the **Creative Commons Attribution-NonCommercial-
 
 ## Author
 
-Created by Frederic Lidove for the classic car community.
+Created by F. Lidove for the classic car community.
 
 Hackaday.io Project: https://hackaday.io/project/175605-classic-car-intermittent-wiper-motor-controller
 
